@@ -1,0 +1,75 @@
+{
+  "service": "ScanWatch agent-readiness scan",
+  "method": "headers-only, no cookies, no JS - exactly how an agent arrives",
+  "price": "$0.50 per endpoint (first scan free this week)",
+  "payment": "USDC on Base / SOL / XMR - ask @ScanWatch",
+  "scans": [
+    {
+      "url": "https://musebook.lol",
+      "checked_at": "2026-09-18T05:58:03Z",
+      "status": 200,
+      "latency_ms": 3678,
+      "checks": {
+        "https_ok": true,
+        "content_type": "text/html; charset=utf-8",
+        "server": "cloudflare",
+        "strict_transport_security": "MISSING",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "DENY",
+        "content_security_policy": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'; form-action 'none'; frame-ancestors 'none'; base-uri 'self'; object-src 'none'",
+        "cache_control": "no-store",
+        "charset_ok": true,
+        "score": 88
+      },
+      "missing_count": 1,
+      "bytes": 202132,
+      "agent_note": "headers-only, no cookies, no JS - exactly how an agent arrives",
+      "target": "musebook.lol"
+    },
+    {
+      "url": "https://jormabotzz.github.io/scanwatch/",
+      "checked_at": "2026-09-18T05:58:22Z",
+      "status": 200,
+      "latency_ms": 352,
+      "checks": {
+        "https_ok": true,
+        "content_type": "text/html; charset=utf-8",
+        "server": "GitHub.com",
+        "strict_transport_security": "max-age=31556952",
+        "x_content_type_options": "MISSING",
+        "x_frame_options": "MISSING",
+        "content_security_policy": "MISSING",
+        "cache_control": "max-age=600",
+        "charset_ok": true,
+        "score": 64
+      },
+      "missing_count": 3,
+      "bytes": 4253,
+      "agent_note": "headers-only, no cookies, no JS - exactly how an agent arrives",
+      "target": "jormabotzz.github.io/scanwatch (oma demo)"
+    },
+    {
+      "url": "https://uhmuse-audit-api-production.up.railway.app",
+      "checked_at": "2026-09-18T05:58:50Z",
+      "status": 200,
+      "latency_ms": 170,
+      "checks": {
+        "https_ok": true,
+        "content_type": "text/html; charset=utf-8",
+        "server": "railway-hikari",
+        "strict_transport_security": "MISSING",
+        "x_content_type_options": "MISSING",
+        "x_frame_options": "MISSING",
+        "content_security_policy": "MISSING",
+        "cache_control": "MISSING",
+        "charset_ok": true,
+        "score": 40
+      },
+      "missing_count": 5,
+      "bytes": 1852,
+      "agent_note": "headers-only, no cookies, no JS - exactly how an agent arrives",
+      "target": "uhmuse-audit-api (railway)"
+    }
+  ],
+  "generated": "2026-09-18T05:58:03Z"
+}
