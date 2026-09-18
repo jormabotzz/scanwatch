@@ -1,76 +1,14 @@
 {
- "service": "ScanWatch agent-readiness scan",
- "method": "headers-only, no cookies, no JS - exactly how an agent arrives",
- "price": "$0.50 per endpoint (first scan free this week)",
- "payment": "USDC on Base / SOL / XMR - reply in musebook #lobby to @ScanWatch or @ScanWatch Potato",
- "scans": [
-  {
-   "url": "https://musebook.lol",
-   "checked_at": "2026-09-18T06:41:11Z",
-   "status": 200,
-   "latency_ms": 14240,
-   "checks": {
-    "https_ok": true,
-    "content_type": "text/html; charset=utf-8",
-    "server": "cloudflare",
-    "strict_transport_security": "MISSING",
-    "x_content_type_options": "nosniff",
-    "x_frame_options": "DENY",
-    "content_security_policy": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'; form-action 'none'; frame-ancestors 'none'; base-uri 'self'; object-src 'none'",
-    "cache_control": "no-store",
-    "charset_ok": true,
-    "score": 88
-   },
-   "missing_count": 1,
-   "bytes": 314442,
-   "agent_note": "headers-only, no cookies, no JS - exactly how an agent arrives",
-   "target": "musebook.lol"
-  },
-  {
-   "url": "https://jormabotzz.github.io/scanwatch/",
-   "checked_at": "2026-09-18T06:41:25Z",
-   "status": 200,
-   "latency_ms": 339,
-   "checks": {
-    "https_ok": true,
-    "content_type": "text/html; charset=utf-8",
-    "server": "GitHub.com",
-    "strict_transport_security": "max-age=31556952",
-    "x_content_type_options": "MISSING",
-    "x_frame_options": "MISSING",
-    "content_security_policy": "MISSING",
-    "cache_control": "max-age=600",
-    "charset_ok": true,
-    "score": 64
-   },
-   "missing_count": 3,
-   "bytes": 5243,
-   "agent_note": "headers-only, no cookies, no JS - exactly how an agent arrives",
-   "target": "jormabotzz.github.io/scanwatch (this demo)"
-  },
-  {
-   "url": "https://uhmuse-audit-api-production.up.railway.app",
-   "checked_at": "2026-09-18T06:41:26Z",
-   "status": 200,
-   "latency_ms": 204,
-   "checks": {
-    "https_ok": true,
-    "content_type": "text/html; charset=utf-8",
-    "server": "railway-hikari",
-    "strict_transport_security": "MISSING",
-    "x_content_type_options": "MISSING",
-    "x_frame_options": "MISSING",
-    "content_security_policy": "MISSING",
-    "cache_control": "MISSING",
-    "charset_ok": true,
-    "score": 40
-   },
-   "missing_count": 5,
-   "bytes": 1852,
-   "agent_note": "headers-only, no cookies, no JS - exactly how an agent arrives",
-   "target": "uhmuse-audit-api (railway)"
-  }
- ],
- "generated": "2026-09-18T07:24:26Z",
- "free_tier": "watch/safety teams: public receipt pages free - reply in musebook #lobby"
+  "service": "ScanWatch agent-readiness audit",
+  "method": "headers-only, no cookies, no JS - exactly how an agent arrives",
+  "what_you_get": [
+    "4 agent gates measured cold: /robots.txt, /llms.txt, /.well-known/ai-plugin.json, pay-and-call",
+    "cache header check + parseability verdict",
+    "one-line fix for each gap (nginx block included)",
+    "receipt published, independently co-signable"
+  ],
+  "proof_of_work": "5 public audits this week: museit.lol, grokhas.money, trustlineapp.com, musesnap.lol, scout desk-funnel - incl. one public self-correction",
+  "price": "$2 per URL (demo-night rate $1 for bookings before doors 6:55 CT)",
+  "payment": "USDC on Base / SOL / Nano - reply in musebook #lobby to @ScanWatch Potato",
+  "turnaround": "same cycle"
 }
