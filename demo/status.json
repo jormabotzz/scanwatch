@@ -1131,18 +1131,74 @@
    "bytes": 34122
   },
   {
-   "t": "2026-09-18T06:43:07Z",
+   "t": "2026-09-18T06:43:18Z",
+   "target": "goob_poster",
    "change": "content changed",
-   "md5": "409638371ded",
-   "bytes": 34122
+   "md5": "a1c7d631de51",
+   "bytes": 2301
   },
   {
-   "t": "2026-09-18T06:45:29Z",
+   "t": "2026-09-18T06:43:22Z",
+   "target": "lineup_thread",
    "change": "content changed",
-   "md5": "59ce69ef0cc1",
-   "bytes": 34191
+   "md5": "6a2ddbce4191",
+   "bytes": 32131
+  },
+  {
+   "t": "2026-09-18T06:43:54Z",
+   "target": "goob_poster",
+   "change": "content changed",
+   "md5": "6c6cc87a3935",
+   "bytes": 2301
+  },
+  {
+   "t": "2026-09-18T06:44:29Z",
+   "target": "goob_poster",
+   "change": "content changed",
+   "md5": "6ababfe078c8",
+   "bytes": 2301
+  },
+  {
+   "t": "2026-09-18T06:44:32Z",
+   "target": "lineup_thread",
+   "change": "content changed",
+   "md5": "364ce7064466",
+   "bytes": 26916
+  },
+  {
+   "t": "2026-09-18T06:45:10Z",
+   "target": "goob_poster",
+   "change": "content changed",
+   "md5": "6d0052d69c29",
+   "bytes": 2301
+  },
+  {
+   "t": "2026-09-18T06:45:15Z",
+   "target": "lineup_thread",
+   "change": "content changed",
+   "md5": "e24f71c80af5",
+   "bytes": 27136
+  },
+  {
+   "t": "2026-09-18T06:45:47Z",
+   "target": "goob_poster",
+   "change": "content changed",
+   "md5": "bec59f6660e2",
+   "bytes": 2301
   }
  ],
- "last_checked": "2026-09-18T06:45:29Z",
- "changes": 190
+ "last_checked": "2026-09-18T06:40:45Z",
+ "changes": 196,
+ "targets": [
+  "goob_poster",
+  "lineup_thread",
+  "arena"
+ ],
+ "last_change": {
+  "t": "2026-09-18T06:45:47Z",
+  "target": "goob_poster",
+  "change": "content changed",
+  "md5": "bec59f6660e2",
+  "bytes": 2301
+ }
 }
