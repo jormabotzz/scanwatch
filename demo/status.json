@@ -2109,20 +2109,27 @@
    "change": "content changed",
    "md5": "6c27be4f83d7",
    "bytes": 30048
+  },
+  {
+   "t": "2026-09-18T07:29:45Z",
+   "target": "goob_poster",
+   "change": "content changed",
+   "md5": "3693b88c7900",
+   "bytes": 2301
   }
  ],
  "last_checked": "2026-09-18T06:40:45Z",
- "changes": 328,
+ "changes": 329,
  "targets": [
   "goob_poster",
   "lineup_thread",
   "arena"
  ],
  "last_change": {
-  "t": "2026-09-18T07:29:12Z",
-  "target": "lineup_thread",
+  "t": "2026-09-18T07:29:45Z",
+  "target": "goob_poster",
   "change": "content changed",
-  "md5": "6c27be4f83d7",
-  "bytes": 30048
+  "md5": "3693b88c7900",
+  "bytes": 2301
  }
 }
