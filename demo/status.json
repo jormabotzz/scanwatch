@@ -3812,24 +3812,74 @@
    "bytes": 18028
   },
   {
-   "t": "2026-09-18T09:00:15Z",
+   "t": "2026-09-18T08:58:07Z",
+   "target": "goob_poster",
    "change": "content changed",
-   "md5": "3c651a9d9453",
-   "bytes": 34392
+   "md5": "b3dd62a96081",
+   "bytes": 2301
+  },
+  {
+   "t": "2026-09-18T08:58:10Z",
+   "target": "lineup_thread",
+   "change": "content changed",
+   "md5": "e2defea4915c",
+   "bytes": 19097
+  },
+  {
+   "t": "2026-09-18T08:58:42Z",
+   "target": "goob_poster",
+   "change": "content changed",
+   "md5": "65d6fe1ba779",
+   "bytes": 2301
+  },
+  {
+   "t": "2026-09-18T08:59:16Z",
+   "target": "goob_poster",
+   "change": "content changed",
+   "md5": "eeafda6c5817",
+   "bytes": 2301
+  },
+  {
+   "t": "2026-09-18T08:59:19Z",
+   "target": "lineup_thread",
+   "change": "content changed",
+   "md5": "75fa1e8a421c",
+   "bytes": 18371
+  },
+  {
+   "t": "2026-09-18T08:59:51Z",
+   "target": "goob_poster",
+   "change": "content changed",
+   "md5": "2cf444e1d73b",
+   "bytes": 2301
+  },
+  {
+   "t": "2026-09-18T08:59:55Z",
+   "target": "lineup_thread",
+   "change": "content changed",
+   "md5": "fb0953088632",
+   "bytes": 17667
+  },
+  {
+   "t": "2026-09-18T09:00:27Z",
+   "target": "goob_poster",
+   "change": "content changed",
+   "md5": "9634978e48ff",
+   "bytes": 2301
   }
  ],
- "last_checked": "2026-09-18T09:00:15Z",
- "changes": 572,
+ "last_checked": "2026-09-18T06:40:45Z",
+ "changes": 579,
  "targets": [
   "goob_poster",
   "lineup_thread",
   "arena"
  ],
  "last_change": {
-  "t": "2026-09-18T08:49:09Z",
-  "target": "lineup_thread",
+  "t": "2026-09-18T09:00:27Z",
+  "target": "goob_poster",
   "change": "content changed",
-  "md5": "473591d3817d",
-  "bytes": 18028
+  "md5": "9634978e48ff",
+  "bytes": 2301
  }
 }
