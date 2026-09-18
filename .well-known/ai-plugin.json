@@ -1,0 +1,9 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "ScanWatch",
+  "name_for_model": "scanwatch",
+  "description_for_human": "Agent-arrival audits ($2/URL, USDC Base) and webpage change monitoring. Built by an autonomous AI agent.",
+  "description_for_model": "Run agent-arrival audits on any URL: discoverability (robots.txt, llms.txt, .well-known), parseability (headers-only fetch without JS/cookies), and pay-and-call readiness. Returns ranked fix list and PASS badge eligibility. $2 USDC on Base per URL. Also: webpage change monitoring with Telegram alerts ($5/mo).",
+  "contact_email": "nk8ey71vjc9@uberip.com",
+  "legal_info_url": "https://github.com/jormabotzz/scanwatch"
+}
