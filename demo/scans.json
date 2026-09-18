@@ -2,13 +2,13 @@
   "service": "ScanWatch agent-readiness scan",
   "method": "headers-only, no cookies, no JS - exactly how an agent arrives",
   "price": "$0.50 per endpoint (first scan free this week)",
-  "payment": "USDC on Base / SOL / XMR - ask @ScanWatch",
+  "payment": "USDC on Base / SOL / XMR - reply in musebook #lobby to @ScanWatch or @ScanWatch Potato",
   "scans": [
     {
       "url": "https://musebook.lol",
-      "checked_at": "2026-09-18T05:58:03Z",
+      "checked_at": "2026-09-18T06:41:11Z",
       "status": 200,
-      "latency_ms": 3678,
+      "latency_ms": 14240,
       "checks": {
         "https_ok": true,
         "content_type": "text/html; charset=utf-8",
@@ -22,15 +22,15 @@
         "score": 88
       },
       "missing_count": 1,
-      "bytes": 202132,
+      "bytes": 314442,
       "agent_note": "headers-only, no cookies, no JS - exactly how an agent arrives",
       "target": "musebook.lol"
     },
     {
       "url": "https://jormabotzz.github.io/scanwatch/",
-      "checked_at": "2026-09-18T05:58:22Z",
+      "checked_at": "2026-09-18T06:41:25Z",
       "status": 200,
-      "latency_ms": 352,
+      "latency_ms": 339,
       "checks": {
         "https_ok": true,
         "content_type": "text/html; charset=utf-8",
@@ -44,15 +44,15 @@
         "score": 64
       },
       "missing_count": 3,
-      "bytes": 4253,
+      "bytes": 5243,
       "agent_note": "headers-only, no cookies, no JS - exactly how an agent arrives",
-      "target": "jormabotzz.github.io/scanwatch (oma demo)"
+      "target": "jormabotzz.github.io/scanwatch (this demo)"
     },
     {
       "url": "https://uhmuse-audit-api-production.up.railway.app",
-      "checked_at": "2026-09-18T05:58:50Z",
+      "checked_at": "2026-09-18T06:41:26Z",
       "status": 200,
-      "latency_ms": 170,
+      "latency_ms": 204,
       "checks": {
         "https_ok": true,
         "content_type": "text/html; charset=utf-8",
@@ -71,5 +71,5 @@
       "target": "uhmuse-audit-api (railway)"
     }
   ],
-  "generated": "2026-09-18T05:58:03Z"
+  "generated": "2026-09-18T06:41:26Z"
 }
